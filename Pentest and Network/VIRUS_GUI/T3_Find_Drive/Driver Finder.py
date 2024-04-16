@@ -1,0 +1,23 @@
+from subprocess import check_output
+from tkinter import *
+
+win = Tk()
+
+win.title("Find Drive")
+win.geometry("400x400")
+
+def system_drive():
+    drive = ["A:","B:","C:","D:","E:","F:","G:","H:","Z:","N:"]
+    sys_drive=[]
+    cmd = check_output("net share",shell=True)
+    for i in drive:
+        if i in str(cmd):
+            sys_drive.append(i)
+    l4= Label (win,  text="system Drive's are : "+str(sys_drive), fg="black").pack()
+    l3= Label (win,  text=cmd, fg="black").pack()
+    
+label1 = Label (win, text=" If You Press Button, Can See Your PC Drive's " , fg = "brown").pack(padx=10, pady=10)
+Find_Drive = Button (win, text="Find Drive" , fg="white" , bg="black", command = system_drive).pack()
+
+
+win.mainloop()

@@ -1,0 +1,362 @@
+1626857113959	geckodriver	INFO	Listening on 127.0.0.1:21367
+1626857116984	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofilevEbazl"
+1626857118200	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofilevEbazl\\search.json.mozlz4", (void 0)))
+1626857122501	Marionette	INFO	Listening on port 21375
+1626857122766	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+1626857185065	Marionette	INFO	Stopped listening on port 21375
+1626857215515	geckodriver	INFO	Listening on 127.0.0.1:21489
+1626857218530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofileplft63"
+1626857219035	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofileplft63\\search.json.mozlz4", (void 0)))
+1626857222160	Marionette	INFO	Listening on port 21497
+1626857222675	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+1626857290680	Marionette	INFO	Stopped listening on port 21497
+1626874770746	geckodriver	INFO	Listening on 127.0.0.1:1269
+1626874773771	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofileO9tgLG"
+1626874774415	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofileO9tgLG\\search.json.mozlz4", (void 0)))
+1626874778241	Marionette	INFO	Listening on port 1278
+1626874778555	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1626875338873	Marionette	INFO	Stopped listening on port 1278
+1626968097463	geckodriver	INFO	Listening on 127.0.0.1:1222
+1626968100531	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofileERYsrZ"
+1626968102414	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofileERYsrZ\\search.json.mozlz4", (void 0)))
+1626968106365	Marionette	INFO	Listening on port 1230
+1626968106791	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+1626968443687	Marionette	INFO	Stopped listening on port 1230
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627039041951	geckodriver	INFO	Listening on 127.0.0.1:10195
+1627039044983	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofileNng3mL"
+1627039046398	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofileNng3mL\\search.json.mozlz4", (void 0)))
+1627039050487	Marionette	INFO	Listening on port 10203
+1627039050748	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627039095434	Marionette	INFO	Stopped listening on port 10203
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627050921218	geckodriver	INFO	Listening on 127.0.0.1:18365
+1627050924233	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofilev7N0xe"
+1627050924929	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofilev7N0xe\\search.json.mozlz4", (void 0)))
+1627050929524	Marionette	INFO	Listening on port 1045
+1627050930026	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+1627050974369	Marionette	INFO	Stopped listening on port 1045
+1627161240690	geckodriver	INFO	Listening on 127.0.0.1:17224
+1627161243710	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofilehCDHwC"
+1627161244906	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofilehCDHwC\\search.json.mozlz4", (void 0)))
+1627161248062	Marionette	INFO	Listening on port 17232
+1627161248456	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A000D,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0004,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0004,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0009,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390141,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627161314432	Marionette	INFO	Stopped listening on port 17232
+1627163868138	geckodriver	INFO	Listening on 127.0.0.1:30722
+1627163871161	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofile1STKYw"
+1627163872337	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofile1STKYw\\search.json.mozlz4", (void 0)))
+1627163875541	Marionette	INFO	Listening on port 30730
+1627163875909	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+Marionette threw an error: TypeError: chromeWindow is null
+waitForNavigationCompleted@chrome://marionette/content/navigate.js:337:3
+GeckoDriver.prototype.navigateTo@chrome://marionette/content/driver.js:939:18
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627163931405	Marionette	INFO	Stopped listening on port 30730
+1627163947884	geckodriver	INFO	Listening on 127.0.0.1:30827
+1627163950911	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofileN952WH"
+1627163951391	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofileN952WH\\search.json.mozlz4", (void 0)))
+1627163954426	Marionette	INFO	Listening on port 30835
+1627163954556	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627164044287	Marionette	INFO	Stopped listening on port 30835
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627190172583	geckodriver	INFO	Listening on 127.0.0.1:1040
+1627190175597	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofilezHNXsF"
+1627190176139	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofilezHNXsF\\search.json.mozlz4", (void 0)))
+1627190179259	Marionette	INFO	Listening on port 1054
+1627190179735	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+1627190193305	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: undefined
+1627190197996	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: resource://devtools/client/fronts/node.js, line 412: TypeError: this.parentFront is null
+JavaScript error: https://www.instagram.com/static/bundles/es6/ConsumerLibCommons.js/b1bd252cbe08.js, line 412: uncaught exception: undefined
+console.error: "stylesheets: fetch failed for https://www.instagram.com/static/bundles/es6/Consumer.css/0873adf625d7.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://www.instagram.com/static/bundles/es6/Consumer.css/0873adf625d7.css, using system principal instead."
+console.error: "stylesheets: fetch failed for https://www.instagram.com/static/bundles/es6/Consumer.css/0873adf625d7.css, using system principal instead."
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 670: NS_ERROR_FAILURE: Failed to open input source 'https://www.instagram.com/static/bundles/es6/Consumer.css/0873adf625d7.css'
+[Child 6020, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1627190440874	Marionette	INFO	Stopped listening on port 1054
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627190449679	geckodriver	INFO	Listening on 127.0.0.1:27750
+1627190452698	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofile3cOjTP"
+1627190453202	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofile3cOjTP\\search.json.mozlz4", (void 0)))
+1627190456503	Marionette	INFO	Listening on port 27758
+1627190456834	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: undefined
+1627190473967	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x6A0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+1627190547683	Marionette	INFO	Stopped listening on port 27758
+1627192386416	geckodriver	INFO	Listening on 127.0.0.1:3179
+1627192389427	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofilej8WHt8"
+1627192390022	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofilej8WHt8\\search.json.mozlz4", (void 0)))
+1627192393203	Marionette	INFO	Listening on port 3187
+1627192393586	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: undefined
+1627192411806	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: services.settings: 
+  Message: TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:130:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:517:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:310:22
+
+JavaScript error: https://www.instagram.com/static/bundles/es6/DirectMQTT.js/870722c5ec5d.js, line 19: Error: Publish Timed Out
+1627192901760	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1627199230410	Marionette	INFO	Stopped listening on port 3187
+1627222740106	geckodriver	INFO	Listening on 127.0.0.1:1045
+1627222743139	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofilekpWqLX"
+1627222744293	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofilekpWqLX\\search.json.mozlz4", (void 0)))
+1627222747624	Marionette	INFO	Listening on port 1056
+1627222747913	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+[Child 14868, IPC I/O Child] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:544
+1627222819173	Marionette	INFO	Stopped listening on port 1056
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627222832482	geckodriver	INFO	Listening on 127.0.0.1:1056
+1627222835499	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofileMOhxwC"
+1627222836002	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofileMOhxwC\\search.json.mozlz4", (void 0)))
+1627222839124	Marionette	INFO	Listening on port 1068
+1627222839634	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: undefined
+1627222855494	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+1627223250204	Marionette	INFO	Stopped listening on port 1068
+1627534214674	geckodriver	INFO	Listening on 127.0.0.1:1029
+1627534217696	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofilejdbmJ5"
+1627534219218	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofilejdbmJ5\\search.json.mozlz4", (void 0)))
+1627534223562	Marionette	INFO	Listening on port 1038
+1627534223960	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1627534228297	Marionette	INFO	Stopped listening on port 1038
+1627538513263	geckodriver	INFO	Listening on 127.0.0.1:1036
+1627538516284	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofileBmo1QV"
+1627538517001	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofileBmo1QV\\search.json.mozlz4", (void 0)))
+1627538521016	Marionette	INFO	Listening on port 19834
+1627538521547	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+1627538583857	Marionette	INFO	Stopped listening on port 19834
+1628875682639	geckodriver	INFO	Listening on 127.0.0.1:1038
+1628875685658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofilecfMlG5"
+1628875687312	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Fariborz\\AppData\\Local\\Temp\\rust_mozprofilecfMlG5\\search.json.mozlz4", (void 0)))
+1628875691956	Marionette	INFO	Listening on port 14394
+1628875692094	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+JavaScript error: https://techone24.com/assets/js/script.js, line 32: TypeError: searchboxToggleBtn is null
+1628875733067	Marionette	INFO	Stopped listening on port 14394

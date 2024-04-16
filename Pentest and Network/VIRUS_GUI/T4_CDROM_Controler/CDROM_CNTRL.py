@@ -1,0 +1,36 @@
+from winreg import *
+from tkinter import *
+
+win = Tk()
+
+win.title("CDROM Controler")
+win.geometry("400x400")
+win.resizable(0,0)
+
+
+#This is Function for Disable CDROM
+def disable_cdrom():
+    keyVal = r'SYSTEM\CurrentControlSet\Services\cdrom'
+    try:
+        key = OpenKey(HKEY_LOCAL_MACHINE,keyVal,0,KEY_ALL_ACCESS)
+        l3= Label (win, text="CDROM Is Disabled.").pack()
+    except:
+        key = CreateKey(HKEY_LOCAL_MACHINE,keyVal)
+    SetValueEx(key,"start",0,REG_DWORD,4)
+    CloseKey(key)
+
+def enable_cdrom():
+    keyVal = r'SYSTEM\CurrentControlSet\Services\cdrom'
+    try:
+        key = OpenKey(HKEY_LOCAL_MACHINE,keyVal,0,KEY_ALL_ACCESS)
+        l3= Label (win, text="CDROM Is Enabled.").pack()
+    except:
+        key = CreateKey(HKEY_LOCAL_MACHINE,keyVal)
+    SetValueEx(key,"start",0,REG_DWORD,1)
+    CloseKey(key)
+
+
+disable_button = Button (win,  text="CDROM Disable", fg="red", bg="yellow", command= disable_cdrom).pack(padx=10, pady=10)
+enable_button = Button (win,  text="CDROM Enable", fg="red", bg="yellow", command= enable_cdrom).pack(padx=10, pady=10)
+
+win.mainloop()

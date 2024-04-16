@@ -1,0 +1,120 @@
+Download Git Site and Install
+.................
+https://git-scm.com/
+
+Run Git Bash
+..................
+Right Click in Working Project and Click on Git Bash
+
+Help Parameter
+...................
+git
+
+Verify Git Version
+...................
+git --version
+
+Create Repository
+...................
+git init
+
+Show Working Tree
+.....................
+git status
+
+Add Files to Stage
+......................
+git add .
+
+Add File from Stage to Repository
+..................................
+git commit -m "Message for Commit"
+
+For Add Files Modified from working Tree to Direct Repository
+...............................................
+git commit -a -m "Message for Commit"
+
+for unstage File
+.................
+git restore --staged <file>
+
+For Verfiy Modify Change in File
+...................................
+git diff
++ Add Change
+- Remove Change
+
+For Online Help diff
+......................
+git diff --help
+
+
+For View Commits
+.....................
+git log
+git log --oneline
+git log -2 --oneline
+git log -p #for view commits and Change
+
+
+For Change Back from working Tree
+.....................................
+git checkout -- .
+
+
+For Change Back from Stage to Working Tree
+..........................................
+ git restore --staged .
+ 
+ For Change Back from Repository to Working Tree
+ ..............
+ git log --oneline
+ git reset 4e298b8
+ 
+ Create Branch from main branch
+ ..............................
+ git branch dev
+ or
+ git checkout -b dev
+ 
+ For View All Branch
+ ......................
+ git branch -a
+ 
+ For Switch Between Branches
+ ...........................
+ git checkout dev
+ 
+ For Delete a Branch
+ ....................
+ git checkout master
+ git branch -d dev
+ 
+ For Merge Branch
+ .................
+ git merge dev
+ 
+ git log --graph
+ 
+ Config Git Bash:
+ .................
+ git config user.name fariborz.fallahzadeh@gmail.com
+ git config user.email fariborz.fallahzadeh@gmail.com
+ 
+ push an existing repository from the command line in Github
+ .............................................................
+git config credential.helper 
+Windows Credential Store
+git remote add origin https://github.com/Fariborz2018/Python-Project.git
+git branch -M main
+git push -u origin main
+
+
+#change to test
+ 
+
+
+
+
+
+

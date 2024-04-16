@@ -1,0 +1,33 @@
+('E:\\Project\\Python '
+ 'Project\\Kivy\\kivy_venv\\share\\kivy-examples\\demo\\touchtracer',
+ None,
+ [],
+ 'DATA',
+ [('android.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\share\\kivy-examples\\demo\\touchtracer\\android.txt',
+   'DATA'),
+  ('icon.png',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\share\\kivy-examples\\demo\\touchtracer\\icon.png',
+   'DATA'),
+  ('main.py',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\share\\kivy-examples\\demo\\touchtracer\\main.py',
+   'DATA'),
+  ('particle.png',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\share\\kivy-examples\\demo\\touchtracer\\particle.png',
+   'DATA'),
+  ('README.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\share\\kivy-examples\\demo\\touchtracer\\README.txt',
+   'DATA'),
+  ('touchtracer.kv',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\share\\kivy-examples\\demo\\touchtracer\\touchtracer.kv',
+   'DATA'),
+  ('__pycache__\\main.cpython-312.pyc',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\share\\kivy-examples\\demo\\touchtracer\\__pycache__\\main.cpython-312.pyc',
+   'DATA')])

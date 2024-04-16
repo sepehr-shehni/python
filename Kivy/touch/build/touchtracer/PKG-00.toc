@@ -1,0 +1,1066 @@
+('E:\\Project\\Python '
+ 'Project\\Kivy\\touch\\build\\touchtracer\\touchtracer.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True,
+  'SYMLINK': False},
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'E:\\Project\\Python Project\\Kivy\\touch\\build\\touchtracer\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\touch\\build\\touchtracer\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\touch\\build\\touchtracer\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\touch\\build\\touchtracer\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\touch\\build\\touchtracer\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\touch\\build\\touchtracer\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_kivy',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_kivy.py',
+   'PYSOURCE'),
+  ('pyi_rth_gstreamer',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_gstreamer.py',
+   'PYSOURCE'),
+  ('main',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\share\\kivy-examples\\demo\\touchtracer\\main.py',
+   'PYSOURCE'),
+  ('python312.dll',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\python312.dll',
+   'BINARY'),
+  ('select.pyd',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\texture.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\texture.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\PIL\\_webp.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\PIL\\_imagingtk.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingcms.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\PIL\\_imagingcms.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingmath.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\PIL\\_imagingmath.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\PIL\\_imaging.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingft.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\PIL\\_imagingft.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\opengl.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\opengl.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\weakproxy.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\weakproxy.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\context.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\context.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\opengl_utils.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\opengl_utils.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\cgl.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\cgl.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\transformation.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\transformation.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\_event.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\_event.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('kivy\\_clock.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\_clock.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\_metrics.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\_metrics.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\properties.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\properties.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\scissor_instructions.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\scissor_instructions.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\boxshadow.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\boxshadow.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\fbo.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\fbo.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\gl_instructions.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\gl_instructions.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\stencil_instructions.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\stencil_instructions.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\vertex_instructions.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\vertex_instructions.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\context_instructions.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\context_instructions.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\instructions.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\instructions.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\core\\text\\text_layout.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\core\\text\\text_layout.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('win32\\win32file.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\win32\\win32file.pyd',
+   'EXTENSION'),
+  ('kivy\\lib\\gstplayer\\_gstplayer.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\lib\\gstplayer\\_gstplayer.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\cgl_backend\\cgl_debug.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\cgl_backend\\cgl_debug.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\cgl_backend\\cgl_glew.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\cgl_backend\\cgl_glew.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\tesselator.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\tesselator.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\cgl_backend\\cgl_sdl2.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\cgl_backend\\cgl_sdl2.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\core\\clipboard\\_clipboard_sdl2.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\core\\clipboard\\_clipboard_sdl2.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('win32\\win32gui.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\win32\\win32gui.pyd',
+   'EXTENSION'),
+  ('win32\\win32api.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\win32\\win32api.pyd',
+   'EXTENSION'),
+  ('kivy\\core\\window\\_window_sdl2.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\core\\window\\_window_sdl2.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\core\\text\\_text_sdl2.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\core\\text\\_text_sdl2.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\core\\audio\\audio_sdl2.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\core\\audio\\audio_sdl2.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\buffer.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\buffer.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\cgl_backend\\cgl_mock.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\cgl_backend\\cgl_mock.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\shader.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\shader.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\core\\window\\window_info.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\core\\window\\window_info.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\core\\image\\_img_sdl2.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\core\\image\\_img_sdl2.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\vbo.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\vbo.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\compiler.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\compiler.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\cgl_backend\\cgl_gl.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\cgl_backend\\cgl_gl.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\svg.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\svg.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('kivy\\graphics\\vertex.cp312-win_amd64.pyd',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\graphics\\vertex.cp312-win_amd64.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('pywin32_system32\\pywintypes312.dll',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\pywin32_system32\\pywintypes312.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\Farib\\AppData\\Local\\Programs\\Python\\Python312\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('glew32.dll',
+   'E:\\Project\\Python Project\\Kivy\\kivy_venv\\share\\glew\\bin\\glew32.dll',
+   'BINARY'),
+  ('SDL2.dll',
+   'E:\\Project\\Python Project\\Kivy\\kivy_venv\\share\\sdl2\\bin\\SDL2.dll',
+   'BINARY'),
+  ('SDL2_image.dll',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\share\\sdl2\\bin\\SDL2_image.dll',
+   'BINARY'),
+  ('SDL2_ttf.dll',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\share\\sdl2\\bin\\SDL2_ttf.dll',
+   'BINARY'),
+  ('SDL2_mixer.dll',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\share\\sdl2\\bin\\SDL2_mixer.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Program Files\\Amazon Corretto\\jdk11.0.21_9\\bin\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program Files\\Amazon '
+   'Corretto\\jdk11.0.21_9\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('base_library.zip',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\touch\\build\\touchtracer\\base_library.zip',
+   'DATA'),
+  ('certifi\\py.typed',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\__init__.cpython-312.pyc',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\__pycache__\\__init__.cpython-312.pyc',
+   'DATA'),
+  ('kivy_install\\modules\\touchring.py',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\touchring.py',
+   'DATA'),
+  ('kivy_install\\modules\\joycursor.py',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\joycursor.py',
+   'DATA'),
+  ('kivy_install\\data\\glsl\\header.vs',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\glsl\\header.vs',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\es_ES.json',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\keyboards\\es_ES.json',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\webdebugger.cpython-312.pyc',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\__pycache__\\webdebugger.cpython-312.pyc',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\DejaVuSans.ttf',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\fonts\\DejaVuSans.ttf',
+   'DATA'),
+  ('kivy_install\\modules\\showborder.py',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\showborder.py',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\touchring.cpython-312.pyc',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\__pycache__\\touchring.cpython-312.pyc',
+   'DATA'),
+  ('kivy_install\\data\\images\\defaultshape.png',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\images\\defaultshape.png',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\fr_CH.json',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\keyboards\\fr_CH.json',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-64.png',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\logo\\kivy-icon-64.png',
+   'DATA'),
+  ('kivy_install\\data\\images\\cursor.png',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\images\\cursor.png',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\Roboto-Bold.ttf',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\fonts\\Roboto-Bold.ttf',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-48.png',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\logo\\kivy-icon-48.png',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-256.png',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\logo\\kivy-icon-256.png',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\Roboto-Italic.ttf',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\fonts\\Roboto-Italic.ttf',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\_webdebugger.cpython-312.pyc',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\__pycache__\\_webdebugger.cpython-312.pyc',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\qwerty.json',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\keyboards\\qwerty.json',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\qwertz.json',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\keyboards\\qwertz.json',
+   'DATA'),
+  ('kivy_install\\modules\\console.py',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\console.py',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\cursor.cpython-312.pyc',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\__pycache__\\cursor.cpython-312.pyc',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\de_CH.json',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\keyboards\\de_CH.json',
+   'DATA'),
+  ('kivy_install\\data\\glsl\\default.png',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\glsl\\default.png',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\en_US.json',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\keyboards\\en_US.json',
+   'DATA'),
+  ('kivy_install\\data\\style.kv',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\style.kv',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-16.png',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\logo\\kivy-icon-16.png',
+   'DATA'),
+  ('kivy_install\\data\\glsl\\header.fs',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\glsl\\header.fs',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-512.png',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\logo\\kivy-icon-512.png',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-128.png',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\logo\\kivy-icon-128.png',
+   'DATA'),
+  ('kivy_install\\modules\\monitor.py',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\monitor.py',
+   'DATA'),
+  ('kivy_install\\data\\images\\testpattern.png',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\images\\testpattern.png',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\Roboto-Regular.ttf',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\fonts\\Roboto-Regular.ttf',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\recorder.cpython-312.pyc',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\__pycache__\\recorder.cpython-312.pyc',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\screen.cpython-312.pyc',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\__pycache__\\screen.cpython-312.pyc',
+   'DATA'),
+  ('kivy_install\\data\\settings_kivy.json',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\settings_kivy.json',
+   'DATA'),
+  ('kivy_install\\modules\\screen.py',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\screen.py',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\RobotoMono-Regular.ttf',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\fonts\\RobotoMono-Regular.ttf',
+   'DATA'),
+  ('kivy_install\\modules\\__init__.py',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\__init__.py',
+   'DATA'),
+  ('kivy_install\\data\\images\\background.jpg',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\images\\background.jpg',
+   'DATA'),
+  ('kivy_install\\data\\images\\image-loading.gif',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\images\\image-loading.gif',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\console.cpython-312.pyc',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\__pycache__\\console.cpython-312.pyc',
+   'DATA'),
+  ('kivy_install\\modules\\inspector.py',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\inspector.py',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\inspector.cpython-312.pyc',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\__pycache__\\inspector.cpython-312.pyc',
+   'DATA'),
+  ('kivy_install\\modules\\keybinding.py',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\keybinding.py',
+   'DATA'),
+  ('kivy_install\\data\\images\\defaulttheme-0.png',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\images\\defaulttheme-0.png',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-24.png',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\logo\\kivy-icon-24.png',
+   'DATA'),
+  ('kivy_install\\data\\fonts\\Roboto-BoldItalic.ttf',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\fonts\\Roboto-BoldItalic.ttf',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\azerty.json',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\keyboards\\azerty.json',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-64.ico',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\logo\\kivy-icon-64.ico',
+   'DATA'),
+  ('kivy_install\\modules\\webdebugger.py',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\webdebugger.py',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\joycursor.cpython-312.pyc',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\__pycache__\\joycursor.cpython-312.pyc',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\keybinding.cpython-312.pyc',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\__pycache__\\keybinding.cpython-312.pyc',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\monitor.cpython-312.pyc',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\__pycache__\\monitor.cpython-312.pyc',
+   'DATA'),
+  ('kivy_install\\data\\glsl\\default.fs',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\glsl\\default.fs',
+   'DATA'),
+  ('kivy_install\\modules\\cursor.py',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\cursor.py',
+   'DATA'),
+  ('kivy_install\\data\\glsl\\default.vs',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\glsl\\default.vs',
+   'DATA'),
+  ('kivy_install\\data\\logo\\kivy-icon-32.png',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\logo\\kivy-icon-32.png',
+   'DATA'),
+  ('kivy_install\\data\\images\\image-loading.zip',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\images\\image-loading.zip',
+   'DATA'),
+  ('kivy_install\\data\\images\\defaulttheme.atlas',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\images\\defaulttheme.atlas',
+   'DATA'),
+  ('kivy_install\\modules\\recorder.py',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\recorder.py',
+   'DATA'),
+  ('kivy_install\\modules\\__pycache__\\showborder.cpython-312.pyc',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\__pycache__\\showborder.cpython-312.pyc',
+   'DATA'),
+  ('kivy_install\\data\\keyboards\\de.json',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\data\\keyboards\\de.json',
+   'DATA'),
+  ('kivy_install\\modules\\_webdebugger.py',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\kivy\\modules\\_webdebugger.py',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\small-white\\framing.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\small-white\\framing.css',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\responsive.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\html5_polyglot\\responsive.css',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\pretty.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\pretty.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomscr-wide.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isomscr-wide.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isocyr2.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isocyr2.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomfrk.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isomfrk.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\big-black\\pretty.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\big-black\\pretty.css',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\big-black\\__base__',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\big-black\\__base__',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isolat1.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isolat1.txt',
+   'DATA'),
+  ('docutils\\writers\\latex2e\\xelatex.tex',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\latex2e\\xelatex.tex',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamsb.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamsb.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\print.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\print.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isogrk4-wide.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isogrk4-wide.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamsn.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamsn.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isobox.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isobox.txt',
+   'DATA'),
+  ('docutils\\writers\\html4css1\\html4css1.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\html4css1\\html4css1.css',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\slides.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\slides.css',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\minimal.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\html5_polyglot\\minimal.css',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\framing.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\framing.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\mmlextra-wide.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\mmlextra-wide.txt',
+   'DATA'),
+  ('docutils\\writers\\odf_odt\\styles.odt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\odf_odt\\styles.odt',
+   'DATA'),
+  ('docutils\\writers\\latex2e\\docutils.sty',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\latex2e\\docutils.sty',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\tuftig.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\html5_polyglot\\tuftig.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isogrk2.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isogrk2.txt',
+   'DATA'),
+  ('docutils\\writers\\latex2e\\default.tex',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\latex2e\\default.tex',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\medium-white\\framing.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\medium-white\\framing.css',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\big-white\\framing.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\big-white\\framing.css',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\opera.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\opera.css',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\small-black\\pretty.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\small-black\\pretty.css',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\medium-black\\__base__',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\medium-black\\__base__',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomopf-wide.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isomopf-wide.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\xhtml1-special.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\xhtml1-special.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\mmlextra.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\mmlextra.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\s5defs.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\s5defs.txt',
+   'DATA'),
+  ('docutils\\writers\\latex2e\\titlingpage.tex',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\latex2e\\titlingpage.tex',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\xhtml1-lat1.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\xhtml1-lat1.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomopf.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isomopf.txt',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\plain.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\html5_polyglot\\plain.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamso.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamso.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\README.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\README.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isocyr1.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isocyr1.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\medium-black\\pretty.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\medium-black\\pretty.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isogrk1.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isogrk1.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamsa.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamsa.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamsc.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamsc.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\xhtml1-symbol.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\xhtml1-symbol.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomscr.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isomscr.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\small-black\\__base__',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\small-black\\__base__',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isogrk3.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isogrk3.txt',
+   'DATA'),
+  ('docutils\\writers\\pep_html\\pep.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\pep_html\\pep.css',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\template.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\html5_polyglot\\template.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isogrk4.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isogrk4.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isonum.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isonum.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\s5-core.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\s5-core.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isotech.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isotech.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\README.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\README.txt',
+   'DATA'),
+  ('docutils\\writers\\html5_polyglot\\math.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\html5_polyglot\\math.css',
+   'DATA'),
+  ('docutils\\writers\\latex2e\\titlepage.tex',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\latex2e\\titlepage.tex',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isolat2.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isolat2.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\small-white\\pretty.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\small-white\\pretty.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\mmlalias.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\mmlalias.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\outline.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\outline.css',
+   'DATA'),
+  ('docutils\\writers\\pep_html\\template.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\pep_html\\template.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isoamsr.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isoamsr.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\default\\slides.js',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\default\\slides.js',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\medium-white\\pretty.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\medium-white\\pretty.css',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\big-black\\framing.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\big-black\\framing.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isopub.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isopub.txt',
+   'DATA'),
+  ('docutils\\writers\\s5_html\\themes\\big-white\\pretty.css',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\s5_html\\themes\\big-white\\pretty.css',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isodia.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isodia.txt',
+   'DATA'),
+  ('docutils\\parsers\\rst\\include\\isomfrk-wide.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\parsers\\rst\\include\\isomfrk-wide.txt',
+   'DATA'),
+  ('docutils\\writers\\html4css1\\template.txt',
+   'E:\\Project\\Python '
+   'Project\\Kivy\\kivy_venv\\Lib\\site-packages\\docutils\\writers\\html4css1\\template.txt',
+   'DATA')],
+ 'python312.dll',
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)

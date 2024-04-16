@@ -1,0 +1,37 @@
+from winreg import *
+from tkinter import *
+
+win = Tk()
+
+win.title("USB Controler")
+win.geometry("400x400")
+win.resizable(0,0)
+
+
+def disable_usb_ports():
+    keyVal = r'SYSTEM\CurrentControlSet\Services\USBSTOR'
+    try:
+        key = OpenKey(HKEY_LOCAL_MACHINE,keyVal,0,KEY_ALL_ACCESS)
+        l3= Label (win, text="USB Is Disabled.").pack()
+    except:
+        key = CreateKey(HKEY_LOCAL_MACHINE,keyVal)
+        l3= Label (win, text="Cannot Disable USB!").pack()
+    SetValueEx(key,"start",0,REG_DWORD,4)
+    CloseKey(key)
+
+def  enable_usb_ports():
+    keyVal = r'SYSTEM\CurrentControlSet\Services\USBSTOR'
+    try:
+        key = OpenKey(HKEY_LOCAL_MACHINE,keyVal,0,KEY_ALL_ACCESS)
+        l3= Label (win, text="USB Is Enabled.").pack()
+    except:
+        key = CreateKey(HKEY_LOCAL_MACHINE,keyVal)
+        l3= Label (win, text="Cannot Disable USB!").pack()
+    SetValueEx(key,"start",0,REG_DWORD,3)
+    CloseKey(key)
+
+
+disable_button = Button (win,  text="USB Disable", fg="red", bg="yellow", command= disable_usb_ports).pack(ipadx=12,ipady=10,padx="3cm",pady="10px")
+enable_button = Button (win,  text="USB Enable", fg="red", bg="yellow", command= enable_usb_ports).pack(ipadx=12,ipady=10,padx="3cm",pady="10px")
+
+win.mainloop()

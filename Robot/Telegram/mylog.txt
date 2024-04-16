@@ -1,0 +1,30 @@
+2021-07-29 19:24:40,223 - telegram.ext.dispatcher - An error was raised while processing the update and an uncaught error was raised while handling the error with an error_handler
+Traceback (most recent call last):
+  File "D:\Project\pythonProject\Regex\lib\site-packages\telegram\ext\dispatcher.py", line 390, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\Project\pythonProject\Regex\lib\site-packages\telegram\ext\handler.py", line 117, in handle_update
+    return self.callback(update, context)
+  File "D:\Project\pythonProject\Robot\Telegram\13.Exception_Handeling.py", line 11, in start
+    context.bot.send_message(update.message.chat_id, 'a' * 4097)
+  File "D:\Project\pythonProject\Regex\lib\site-packages\decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "D:\Project\pythonProject\Regex\lib\site-packages\telegram\bot.py", line 67, in decorator
+    result = func(*args, **kwargs)
+  File "D:\Project\pythonProject\Regex\lib\site-packages\telegram\bot.py", line 308, in send_message
+    return self._message(url, data, disable_notification=disable_notification,
+  File "D:\Project\pythonProject\Regex\lib\site-packages\telegram\bot.py", line 172, in _message
+    result = self._request.post(url, data, timeout=timeout)
+  File "D:\Project\pythonProject\Regex\lib\site-packages\telegram\utils\request.py", line 331, in post
+    result = self._request_wrapper('POST', url,
+  File "D:\Project\pythonProject\Regex\lib\site-packages\telegram\utils\request.py", line 245, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is too long
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Project\pythonProject\Regex\lib\site-packages\telegram\ext\dispatcher.py", line 403, in process_update
+    self.dispatch_error(update, e)
+  File "D:\Project\pythonProject\Regex\lib\site-packages\telegram\ext\dispatcher.py", line 528, in dispatch_error
+    callback(update, CallbackContext.from_error(update, error, self))
+TypeError: Bad_Request() missing 1 required positional argument: 'error'

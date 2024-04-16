@@ -1,0 +1,14 @@
+import subprocess as sub
+
+site = input("Enter Site address or ip addres(Example google.com): ")
+
+
+File = open("ping.txt", "w")
+    
+try:
+    cmd = sub.check_output("ping "+site+" -n 10 -l 1400", shell=True).decode()
+    File.write(cmd)
+    File.close()
+except:
+    print("nothing, because this site or ip is Resistant")
+
