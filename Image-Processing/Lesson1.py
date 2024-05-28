@@ -1,13 +1,32 @@
 import cv2
+import os
 
-# خواندن تصویر
-img = cv2.imread('E:\\Project\\Python Project\\Image-Processing\\1.jpg')
+def display_image(image_path):
+    """Read and display an image using OpenCV."""
+    try:
+        # Read the image
+        img = cv2.imread(image_path)
 
-# نمایش تصویر
-cv2.imshow('Image', img)
+        if img is None:
+            print("Error: Unable to load the image.")
+            return
 
-# صبر تا فشرده شدن کلیدی
-cv2.waitKey(0)
+        # Display the image
+        cv2.imshow('Image', img)
 
-# بستن پنجره نمایش تصویر
-cv2.destroyAllWindows()
+        # Wait for a key press and then close the window
+        cv2.waitKey(0)
+        cv2.destroyAllWindows()
+    except Exception as e:
+        print("An error occurred:", e)
+
+def main():
+    """Main function."""
+    # Define the image file path
+    image_path = os.path.join('E:\\python project\\Image-Processing\\1.jpg')
+
+    # Display the image
+    display_image(image_path)
+
+if __name__ == "__main__":
+    main()

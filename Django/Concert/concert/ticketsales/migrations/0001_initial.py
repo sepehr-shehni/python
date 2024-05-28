@@ -12,76 +12,81 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
+        # Define the Concert model
         migrations.CreateModel(
-            name='concertModel',
+            name='Concert',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('Name', models.CharField(max_length=100, verbose_name='نام کنسرت')),
-                ('Singer_Name', models.CharField(max_length=100, verbose_name='نام خواننده')),
-                ('length', models.IntegerField(verbose_name='نام کنسرت')),
-                ('Poster', models.ImageField(null=True, upload_to='concertImages/', verbose_name='پوستر')),
+                ('name', models.CharField(max_length=100, verbose_name='Concert Name')),
+                ('singer_name', models.CharField(max_length=100, verbose_name='Singer Name')),
+                ('length', models.IntegerField(verbose_name='Length')),
+                ('poster', models.ImageField(null=True, upload_to='concert_images/', verbose_name='Poster')),
             ],
             options={
-                'verbose_name': 'کنسرت',
-                'verbose_name_plural': 'کنسرت',
+                'verbose_name': 'Concert',
+                'verbose_name_plural': 'Concerts',
             },
         ),
+        # Define the Location model
         migrations.CreateModel(
-            name='locationModel',
+            name='Location',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('Name', models.CharField(max_length=100, verbose_name='نام محل')),
-                ('Address', models.CharField(default='تهران-برج میلاد', max_length=500, verbose_name='محل برگزاری')),
-                ('Phone', models.CharField(max_length=11, null=True, verbose_name='شماره تماس')),
-                ('capacity', models.IntegerField(verbose_name='ظرفیت')),
+                ('name', models.CharField(max_length=100, verbose_name='Location Name')),
+                ('address', models.CharField(default='Tehran-Milad Tower', max_length=500, verbose_name='Address')),
+                ('phone', models.CharField(max_length=11, null=True, verbose_name='Phone Number')),
+                ('capacity', models.IntegerField(verbose_name='Capacity')),
             ],
             options={
-                'verbose_name': 'محل برگزاری',
-                'verbose_name_plural': 'محل برگزاری',
+                'verbose_name': 'Location',
+                'verbose_name_plural': 'Locations',
             },
         ),
+        # Define the Profile model
         migrations.CreateModel(
-            name='ProfileModel',
+            name='Profile',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('Name', models.CharField(max_length=100, verbose_name='نام')),
-                ('Family', models.CharField(max_length=100, verbose_name='نام خانوادگی')),
-                ('Gender', models.IntegerField(choices=[('man', 'مرد'), ('woman', 'زن')], verbose_name='جنسیت')),
-                ('ProfileImage', models.ImageField(upload_to='ProfileImages/', verbose_name='عکس')),
+                ('name', models.CharField(max_length=100, verbose_name='First Name')),
+                ('family', models.CharField(max_length=100, verbose_name='Last Name')),
+                ('gender', models.IntegerField(choices=[('man', 'Male'), ('woman', 'Female')], verbose_name='Gender')),
+                ('profile_image', models.ImageField(upload_to='profile_images/', verbose_name='Profile Image')),
             ],
             options={
-                'verbose_name': 'کاربر',
-                'verbose_name_plural': 'کاربر',
+                'verbose_name': 'Profile',
+                'verbose_name_plural': 'Profiles',
             },
         ),
+        # Define the Time model
         migrations.CreateModel(
-            name='timeModel',
+            name='Time',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('StartDateTime', models.DateTimeField(verbose_name='تاریخ برگزاری')),
-                ('Seats', models.IntegerField(verbose_name='تعداد صندلی')),
-                ('Status', models.IntegerField(choices=[('Start', 'فروش بلیط شروع شده است'), ('End', 'فروش بلیط تمام شده است'), ('Cancel', 'این سانس کنسل شده است'), ('Sales', 'در حال فروش بلیط')], verbose_name='وضعیت کنسرت')),
-                ('concertModel', models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='ticketsales.concertmodel', verbose_name='کنسرت')),
-                ('locationModel', models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='ticketsales.locationmodel', verbose_name='محل برگزاری')),
+                ('start_date_time', models.DateTimeField(verbose_name='Start Date and Time')),
+                ('seats', models.IntegerField(verbose_name='Number of Seats')),
+                ('status', models.IntegerField(choices=[('Start', 'Ticket Sales Started'), ('End', 'Ticket Sales Ended'), ('Cancel', 'Canceled'), ('Sales', 'Selling')], verbose_name='Status')),
+                ('concert', models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='ticketsales.Concert', verbose_name='Concert')),
+                ('location', models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='ticketsales.Location', verbose_name='Location')),
             ],
             options={
-                'verbose_name': 'سانس برگزاری',
-                'verbose_name_plural': 'سانس برگزاری',
+                'verbose_name': 'Time',
+                'verbose_name_plural': 'Times',
             },
         ),
+        # Define the Ticket model
         migrations.CreateModel(
-            name='ticketModel',
+            name='Ticket',
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('Name', models.CharField(max_length=100, verbose_name='عنوان')),
-                ('Price', models.IntegerField(verbose_name='مبلغ')),
-                ('TicketImage', models.ImageField(upload_to='TicketImages/', verbose_name='عکس')),
-                ('ProfileModel', models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='ticketsales.profilemodel', verbose_name='کاربر')),
-                ('timeModel', models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='ticketsales.timemodel', verbose_name='سانس')),
+                ('name', models.CharField(max_length=100, verbose_name='Title')),
+                ('price', models.IntegerField(verbose_name='Price')),
+                ('ticket_image', models.ImageField(upload_to='ticket_images/', verbose_name='Ticket Image')),
+                ('profile', models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='ticketsales.Profile', verbose_name='Profile')),
+                ('time', models.ForeignKey(on_delete=django.db.models.deletion.PROTECT, to='ticketsales.Time', verbose_name='Time')),
             ],
             options={
-                'verbose_name': 'بلیط',
-                'verbose_name_plural': 'بلیط',
+                'verbose_name': 'Ticket',
+                'verbose_name_plural': 'Tickets',
             },
         ),
     ]

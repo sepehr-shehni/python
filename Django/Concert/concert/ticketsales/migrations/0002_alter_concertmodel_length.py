@@ -10,9 +10,10 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
+        # Alter the length field of the ConcertModel
         migrations.AlterField(
             model_name='concertmodel',
             name='length',
-            field=models.IntegerField(verbose_name='مدت زمان کنسرت'),
+            field=models.IntegerField(verbose_name='Concert Duration'),
         ),
     ]

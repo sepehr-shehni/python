@@ -1,14 +1,19 @@
 from django.contrib import admin
-from ticketsales.models import concertModel
-from ticketsales.models import locationModel
-from ticketsales.models import timeModel
-from ticketsales.models import ProfileModel
-from ticketsales.models import ticketModel
-
+from .models import ConcertModel, LocationModel, TimeModel, ProfileModel, TicketModel
 
 # Register your models here.
-admin.site.register(concertModel)
-admin.site.register(locationModel)
-admin.site.register(timeModel)
+
+# Register ConcertModel with the admin site
+admin.site.register(ConcertModel)
+
+# Register LocationModel with the admin site
+admin.site.register(LocationModel)
+
+# Register TimeModel with the admin site
+admin.site.register(TimeModel)
+
+# Register ProfileModel with the admin site
 admin.site.register(ProfileModel)
-admin.site.register(ticketModel)
+
+# Register TicketModel with the admin site
+admin.site.register(TicketModel)

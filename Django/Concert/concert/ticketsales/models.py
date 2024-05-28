@@ -1,95 +1,82 @@
 from django.db import models
 
-
-# Create your models here.
-
-class concertModel(models.Model):
+class Concert(models.Model):
     class Meta:
-        verbose_name = "کنسرت"
-        verbose_name_plural = "کنسرت"
+        verbose_name = "Concert"
+        verbose_name_plural = "Concerts"
 
-    Name = models.CharField(max_length=100, verbose_name="نام کنسرت")
-    Singer_Name = models.CharField(max_length=100, verbose_name="نام خواننده")
-    length = models.IntegerField(verbose_name="مدت زمان کنسرت")
-    Poster = models.ImageField(upload_to="concertImages/", null=True, verbose_name="پوستر")
+    name = models.CharField(max_length=100, verbose_name="Concert Name")
+    singer_name = models.CharField(max_length=100, verbose_name="Singer Name")
+    length = models.IntegerField(verbose_name="Concert Duration")
+    poster = models.ImageField(upload_to="concertImages/", null=True, verbose_name="Poster")
 
     def __str__(self):
-        return self.Singer_Name
+        return self.singer_name
 
-
-class locationModel(models.Model):
+class Location(models.Model):
     class Meta:
-        verbose_name = "محل برگزاری"
-        verbose_name_plural = "محل برگزاری"
+        verbose_name = "Location"
+        verbose_name_plural = "Locations"
 
-    Name = models.CharField(max_length=100, verbose_name="نام محل")
-    Address = models.CharField(max_length=500, default="تهران-برج میلاد", verbose_name="محل برگزاری")
-    Phone = models.CharField(max_length=11, null=True, verbose_name="شماره تماس")
-    capacity = models.IntegerField(verbose_name="ظرفیت")
+    name = models.CharField(max_length=100, verbose_name="Location Name")
+    address = models.CharField(max_length=500, default="Tehran-Milad Tower", verbose_name="Location Address")
+    phone = models.CharField(max_length=11, null=True, verbose_name="Phone Number")
+    capacity = models.IntegerField(verbose_name="Capacity")
 
     def __str__(self):
-        return self.Name
+        return self.name
 
-
-class timeModel(models.Model):
+class Time(models.Model):
     class Meta:
-        verbose_name = "سانس برگزاری"
-        verbose_name_plural = "سانس برگزاری"
+        verbose_name = "Time"
+        verbose_name_plural = "Times"
 
+    concert = models.ForeignKey(Concert, on_delete=models.PROTECT, verbose_name="Concert")
+    location = models.ForeignKey(Location, on_delete=models.PROTECT, verbose_name="Location")
+    start_date_time = models.DateTimeField(verbose_name="Start Date and Time")
+    seats = models.IntegerField(verbose_name="Number of Seats")
 
-    concertModel = models.ForeignKey(to=concertModel, on_delete=models.PROTECT,verbose_name="کنسرت")
-    locationModel = models.ForeignKey(to=locationModel, on_delete=models.PROTECT,verbose_name="محل برگزاری")
-    StartDateTime = models.DateTimeField(verbose_name="تاریخ برگزاری")
-    Seats = models.IntegerField(verbose_name="تعداد صندلی")
-
-    Start = 1
-    End = 2
-    Cancel = 3
-    Sales = 4
-
-    Status_Choices = ((Start, "فروش بلیط شروع شده است"),
-                      (End, "فروش بلیط تمام شده است"),
-                      (Cancel, "این سانس کنسل شده است"),
-                      (Sales, "در حال فروش بلیط"))
-
-    Status = models.IntegerField(choices=Status_Choices, verbose_name="وضعیت کنسرت")
-
+    STATUS_CHOICES = [
+        ("Start", "Ticket Sales Started"),
+        ("End", "Ticket Sales Ended"),
+        ("Cancel", "Canceled"),
+        ("Sales", "Selling")
+    ]
+    status = models.CharField(max_length=10, choices=STATUS_CHOICES, verbose_name="Concert Status")
 
     def __str__(self):
-        return "Time: {} ConcertName: {} Location: {}".format(self.StartDateTime, self.concertModel.Name,self.locationModel.Name)
+        return "Time: {} ConcertName: {} Location: {}".format(self.start_date_time, self.concert.name, self.location.name)
 
-
-class ProfileModel(models.Model):
+class Profile(models.Model):
     class Meta:
-        verbose_name = "کاربر"
-        verbose_name_plural = "کاربر"
+        verbose_name = "Profile"
+        verbose_name_plural = "Profiles"
 
-    Name = models.CharField(max_length=100, verbose_name="نام")
-    Family = models.CharField(max_length=100, verbose_name="نام خانوادگی")
+    name = models.CharField(max_length=100, verbose_name="First Name")
+    family = models.CharField(max_length=100, verbose_name="Last Name")
 
-    man = 1
-    women = 2
-
-    Status_choices = (("man", "مرد"), ("woman", "زن"))
-    Gender = models.IntegerField(choices=Status_choices, verbose_name="جنسیت")
-    ProfileImage = models.ImageField(upload_to="ProfileImages/", verbose_name="عکس")
+    GENDER_CHOICES = [
+        ("man", "Male"),
+        ("woman", "Female")
+    ]
+    gender = models.CharField(max_length=10, choices=GENDER_CHOICES, verbose_name="Gender")
+    profile_image = models.ImageField(upload_to="ProfileImages/", verbose_name="Profile Image")
 
     def __str__(self):
-        return "FullName: {} {}".format(Name, Family)
+        return "FullName: {} {}".format(self.name, self.family)
 
-
-class ticketModel(models.Model):
+class Ticket(models.Model):
     class Meta:
-        verbose_name = "بلیط"
-        verbose_name_plural = "بلیط"
+        verbose_name = "Ticket"
+        verbose_name_plural = "Tickets"
 
-    ProfileModel = models.ForeignKey("ProfileModel", on_delete=models.PROTECT, verbose_name="کاربر")
-    timeModel = models.ForeignKey("timeModel", on_delete=models.PROTECT, verbose_name="سانس")
+    profile = models.ForeignKey(Profile, on_delete=models.PROTECT, verbose_name="Profile")
+    time = models.ForeignKey(Time, on_delete=models.PROTECT, verbose_name="Time")
 
-    Name = models.CharField(max_length=100, verbose_name="عنوان")
-    Price = models.IntegerField(verbose_name="مبلغ")
-    TicketImage = models.ImageField(upload_to="TicketImages/", verbose_name="عکس")
+    name = models.CharField(max_length=100, verbose_name="Title")
+    price = models.IntegerField(verbose_name="Price")
+    ticket_image = models.ImageField(upload_to="TicketImages/", verbose_name="Ticket Image")
 
-    @property
     def __str__(self):
-        return "TicketInfo: Profile: {} ConcertInfo: {}".format(timeModel.__str__())
+        return "TicketInfo: Profile: {} ConcertInfo: {}".format(self.profile, self.time)
+
