@@ -40,7 +40,7 @@ def save_to_pdf(professors, filename):
 
 # تابع اصلی
 def main():
-    url = 'https://arjang.ac.ir/'  # آدرس URL مورد نظر
+    url = 'https://arjang.ac.ir//instructors/'  # آدرس URL مورد نظر
     html = fetch_html(url)
     professors = scrape_professors(html)
 
